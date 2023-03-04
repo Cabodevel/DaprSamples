@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cJcxJyhFo1ftGIICv7aZOtiBkCReK+ATWvuY1/w6RUQ=",
+  "Source": "sample.microservice.order-grpc-client",
+  "BasePath": "_content/sample.microservice.order-grpc-client",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

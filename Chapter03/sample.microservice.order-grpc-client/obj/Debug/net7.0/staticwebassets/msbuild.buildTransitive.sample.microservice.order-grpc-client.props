@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\sample.microservice.order-grpc-client.props" />
+</Project>

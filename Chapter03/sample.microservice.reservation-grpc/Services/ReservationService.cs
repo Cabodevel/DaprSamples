@@ -6,8 +6,7 @@ using Grpc.Core;
 
 namespace sample.microservice.reservation_grpc
 {
-    public class ReservationService : AppCallback.
- AppCallbackBase
+    public class ReservationService : AppCallback.AppCallbackBase
     {
         private readonly ILogger<ReservationService>
          _logger;

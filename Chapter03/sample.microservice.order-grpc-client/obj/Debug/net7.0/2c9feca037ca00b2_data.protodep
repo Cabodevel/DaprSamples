@@ -1,0 +1,1 @@
+obj\Debug\net7.0/Data.cs: ../sample.microservice.reservation-grpc/Protos/data.proto

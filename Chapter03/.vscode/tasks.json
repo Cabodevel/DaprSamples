@@ -1,0 +1,112 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-order",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/dapr.microservice.order/dapr.microservice.order.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-reservation",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/dapr.microservice.reservation/dapr.microservice.reservation.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/dapr.microservice.order.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "${workspaceFolder}/dapr.microservice.order.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "appId": "hello-world",
+            "appPort": 5001,
+            "httpPort": 5010,
+            "grpcPort": 50010,
+            "metricsPort": 9091,
+            "label": "daprd-debug-order",
+            "type": "dapr",
+            "problemMatcher": {
+                "pattern": [
+                    {
+                      "regexp": ".",
+                      "file": 1,
+                      "location": 2,
+                      "message": 3
+                    }
+                ],
+                "background": {
+                    "beginsPattern": "^.*starting Dapr Runtime.*",
+                    "endsPattern": "^.*waiting on port.*"
+                }
+            },
+            "dependsOn": "build-order"
+        },
+        {
+            "appId": "salute-world",
+            "appPort": 5002,
+            "httpPort": 5020,
+            "grpcPort": 50020,
+            "metricsPort": 9092,
+            "label": "daprd-debug-reservation",
+            "type": "dapr",
+            "problemMatcher": {
+                "pattern": [
+                    {
+                      "regexp": ".",
+                      "file": 1,
+                      "location": 2,
+                      "message": 3
+                    }
+                ],
+                "background": {
+                    "beginsPattern": "^.*starting Dapr Runtime.*",
+                    "endsPattern": "^.*waiting on port.*"
+                }
+            },
+            "dependsOn": "build-reservation"
+        },
+        {
+            "appId": "hello-world",
+            "label": "daprd-down-order",
+            "type": "daprd-down"
+        },
+        {
+            "appId": "salute-world",
+            "label": "daprd-down-reservation",
+            "type": "daprd-down"
+        }
+    ]
+}

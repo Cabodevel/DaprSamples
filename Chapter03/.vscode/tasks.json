@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/dapr.microservice.order/dapr.microservice.order.csproj",
+                "${workspaceFolder}/sample.microservice.order/sample.microservice.order.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/dapr.microservice.reservation/dapr.microservice.reservation.csproj",
+                "${workspaceFolder}/sample.microservice.reservation/sample.microservice.reservation.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -31,7 +31,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/dapr.microservice.order.csproj",
+                "${workspaceFolder}/sample.microservice.order.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -44,14 +44,14 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/dapr.microservice.order.csproj",
+                "${workspaceFolder}/sample.microservice.order.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
         },
         {
-            "appId": "hello-world",
+            "appId": "orders",
             "appPort": 5001,
             "httpPort": 5010,
             "grpcPort": 50010,
@@ -75,7 +75,7 @@
             "dependsOn": "build-order"
         },
         {
-            "appId": "salute-world",
+            "appId": "reservations",
             "appPort": 5002,
             "httpPort": 5020,
             "grpcPort": 50020,
@@ -99,12 +99,12 @@
             "dependsOn": "build-reservation"
         },
         {
-            "appId": "hello-world",
+            "appId": "orders",
             "label": "daprd-down-order",
             "type": "daprd-down"
         },
         {
-            "appId": "salute-world",
+            "appId": "reservations",
             "label": "daprd-down-reservation",
             "type": "daprd-down"
         }

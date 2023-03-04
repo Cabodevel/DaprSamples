@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DLkVJ0CfLo+aqa3SX1TyrAeIoNRt3GeWQsaTOLru4po=",
+  "Source": "sample.microservice.order",
+  "BasePath": "_content/sample.microservice.order",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

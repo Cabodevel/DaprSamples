@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2VNID/KfwTPHMIXNBpY5NTm649Ura7oCjH5HoG6cPgvcdMI1q2JkKGeDOXO+PPTd/fV3FDakxzy+2xyjXXhMtw==",
+  "dgSpecHash": "75SB2SG88oFffiOjlKRjvvJF3rsvIKY6+T4T4UAzhF9fU5dmrBfCmny8YdKwhilOXIz1Y4MbXVZgK7zD8dWCFg==",
   "success": true,
   "projectFilePath": "C:\\Users\\carlo\\source\\repos\\DaprSamples\\Chapter03\\sample.microservice.reservation\\sample.microservice.reservation.csproj",
   "expectedPackageFiles": [
@@ -15,7 +15,6 @@
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
-    "C:\\Users\\carlo\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",

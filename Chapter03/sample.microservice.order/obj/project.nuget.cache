@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vi7Tfu4uDQC8HitK9FPEv7BGd8yJlgCPCyPyLKBM2Y5rr4oynC1RhpSaPQiDNVZgw/t7khmaFzosKrslS9Gw7A==",
+  "dgSpecHash": "2CYCkqURXKG8u6ArJcNBo53aM/c3Lh8v4CFWV627M5Pzplc6kAdNMYKNMTQ0/2XYZ9BSrXtxr7ewA8gE3CGi9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\carlo\\source\\repos\\DaprSamples\\sample.microservice.order\\sample.microservice.order.csproj",
+  "projectFilePath": "C:\\Users\\carlo\\source\\repos\\DaprSamples\\Chapter03\\sample.microservice.order\\sample.microservice.order.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\carlo\\.nuget\\packages\\dapr.aspnetcore\\1.10.0\\dapr.aspnetcore.1.10.0.nupkg.sha512",
     "C:\\Users\\carlo\\.nuget\\packages\\dapr.client\\1.10.0\\dapr.client.1.10.0.nupkg.sha512",

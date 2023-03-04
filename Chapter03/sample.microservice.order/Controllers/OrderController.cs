@@ -21,7 +21,7 @@ namespace sample.microservice.order.Controllers
                  quantity = item.Quantity };
                 var result = await daprClient.InvokeMethodAsync<object, dynamic>
                 (HttpMethod.Post, 
-                 "reservation-service",
+                 "reservations",
                   "reserve",
                    data);
                 Console.WriteLine($"sku: {result.GetProperty("sku")} === new quantity: {result.GetProperty("quantity")}");

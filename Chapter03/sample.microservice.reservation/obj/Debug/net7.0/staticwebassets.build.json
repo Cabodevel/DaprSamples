@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "LKMwcrwX9TKtKuoPaWpaEFy1WNjHMF5aOCiXn4S7Xek=",
+  "Source": "sample.microservice.reservation",
+  "BasePath": "_content/sample.microservice.reservation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

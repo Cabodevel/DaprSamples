@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample.microservice.order",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample.microservice.reservation", "sample.microservice.reservation\sample.microservice.reservation.csproj", "{B9981338-9411-428A-A5EF-45E6587DAA90}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sample.microservice.reservation-grpc", "sample.microservice.reservation-grpc\sample.microservice.reservation-grpc.csproj", "{F4356E90-B460-4B7A-A7AB-47D2FBA4F6D8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B9981338-9411-428A-A5EF-45E6587DAA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9981338-9411-428A-A5EF-45E6587DAA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9981338-9411-428A-A5EF-45E6587DAA90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4356E90-B460-4B7A-A7AB-47D2FBA4F6D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4356E90-B460-4B7A-A7AB-47D2FBA4F6D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4356E90-B460-4B7A-A7AB-47D2FBA4F6D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4356E90-B460-4B7A-A7AB-47D2FBA4F6D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

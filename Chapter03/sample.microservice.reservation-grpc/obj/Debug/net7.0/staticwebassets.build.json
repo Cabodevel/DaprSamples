@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "z5g4Svo8dtOXE+HeqS8HZP7ILyDOgKRGvGBNwPuW3+o=",
+  "Source": "sample.microservice.reservation-grpc",
+  "BasePath": "_content/sample.microservice.reservation-grpc",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
